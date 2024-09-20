@@ -134,7 +134,11 @@ input::placeholder {
 
 label {
     /* background-color: #85baae; */
-    background-color: #7bb2b6;
+    /* background-color: #7bb2b6; */
+    border-top: 1px solid #7bb266;
+    border-left: 1px solid #7bb266;
+    border-right: 1px solid #7bb266;
+    border-bottom: 2px solid #7bb266;
     padding: 10px;
     width: 100%;
 }
