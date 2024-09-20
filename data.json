@@ -1,0 +1,32 @@
+{    
+      "questions": [
+        {
+          "question": "In which part of the HTML metadata is contained?",
+          "options": ["head tag", "title tag", "html tag", "body tag"],
+          "correctAnswer": "head tag"
+        },
+        {
+          "question": "Which of the following attributes is used to add link to any element?",
+          "options": ["link", "ref", "href", "newref"],
+          "correctAnswer": "href"
+        },
+        {
+          "question": "What is the purpose of using div tags in HTML?",
+          "options": ["For creating different styles.", "For creating different sections.", "For adding headings.", "For adding titles."],
+          "correctAnswer": "For creating different sections."
+        },
+        {
+          "question": "Which element is used for or styling HTML5 layout?",
+          "options": ["CSS", "jQuery", "JavaScript", "PHP"],
+          "correctAnswer": "CSS"
+        },
+        {
+          "question": "Which of the following attributes is used to open an hyperlink in new tab?",
+          "options": ["tab", "href", "target", "ref"],
+          "correctAnswer": "target"
+        }
+         
+        
+      ]
+    }
+  

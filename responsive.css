@@ -1,0 +1,406 @@
+@media only screen and (max-width: 1048px) {
+    .quote {
+        font-size: 18px;
+    }
+
+    .que-block {
+        width: 80%;
+    }
+
+    /* instruction page  */
+    .instruction-page {
+        padding: 0px 80px 60px;
+    }
+
+    .instruction-buttons {
+        left: 80px;
+    }
+
+    /* result page  */
+
+    .ans-block {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .quote {
+        font-size: 17px;
+    }
+
+    /* instruction page  */
+    .instruction-page {
+        padding: 0px 60px 60px;
+    }
+
+    .instruction-buttons {
+        left: 60px;
+    }
+
+    /* result page  */
+
+    .ans-block {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .home-title {
+        font-size: 26px;
+    }
+
+    .quote {
+        font-size: 14px;
+    }
+
+    .quiz-time {
+        font-size: 50px;
+    }
+
+    .quiz-time-description {
+        font-size: 16px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #start-btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* instruction page  */
+    .instruction-page {
+        padding: 0px 40px 60px;
+    }
+
+    .instruction-buttons {
+        left: 40px;
+    }
+
+    /* header section */
+
+    header {
+        font-size: 28px;
+    }
+
+    .welcomeCandidate p {
+        font-size: 24px;
+    }
+
+    .welcomeCandidate span {
+        font-size: 18px;
+    }
+
+    /* question block  */
+    .que-block {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .home-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin-top: 0px;
+    }
+
+    .quiz-start-section {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .home-title {
+        font-size: 42px;
+    }
+
+    .quote {
+        font-size: 24px;
+    }
+
+
+    .start-quiz {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .quiz-time {
+
+        font-size: 72px;
+    }
+
+    .quiz-time-description {
+        font-size: 24px;
+    }
+
+
+    input {
+        padding: 10px 30px;
+    }
+
+    #start-btn {
+        padding: 12px 15px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home-title {
+        font-size: 32px;
+    }
+
+    .quote {
+        font-size: 18px;
+    }
+
+    .quiz-time {
+
+        font-size: 56px;
+    }
+
+    .quiz-time-description {
+        font-size: 18px;
+    }
+
+
+    input {
+        padding: 10px 25px;
+    }
+
+    #start-btn {
+        padding: 12px;
+    }
+
+    /* header section */
+
+    header {
+        font-size: 24px;
+        padding: 15px 15px 0 15px;
+
+    }
+
+    .welcomeCandidate p {
+        font-size: 20px;
+    }
+
+    .welcomeCandidate span {
+        font-size: 18px;
+    }
+
+    .test-title {
+        font-size: 14px;
+    }
+
+    .question-timer {
+        font-size: 16px;
+    }
+
+    .que-block {
+        width: 100%;
+    }
+
+    /* result page */
+    .ans-block {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .home-title {
+        font-size: 24px;
+    }
+
+    .quote {
+        font-size: 12px;
+        margin-bottom: 10px;
+
+    }
+
+    .quiz-time {
+        margin-bottom: 10px;
+
+        font-size: 42px;
+    }
+
+    .quiz-start-section {
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .quiz-time-description {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    input {
+        padding: 10px;
+    }
+
+    #start-btn {
+        padding: 10px;
+    }
+
+    /* instruction page  */
+    .instruction-page {
+        padding: 0px 20px 60px;
+    }
+
+    .instruction-buttons {
+        left: 20px;
+    }
+
+    /* header section */
+
+    .test-title {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .question-timer {
+        font-size: 16px;
+    }
+
+    .que-block {
+        width: 100%;
+    }
+
+    /* result page  */
+
+    .ans-block {
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 384px) {
+
+
+    .home-title {
+        font-size: 18px;
+    }
+
+    .quote {
+        font-size: 10px;
+        /* margin-bottom: 10px; */
+        /* Space between quote and other elements */
+    }
+
+    .start-quiz {
+        margin-top: 0px;
+        gap: 0px;
+
+    }
+
+    .quiz-time {
+        /* margin-bottom: 10px; */
+        /* Space between timer and description */
+    }
+
+    .quiz-time-description {
+        font-size: 12px;
+        /* Reduce description font size */
+        text-align: center;
+        margin-bottom: 20px;
+        /* Space after description */
+    }
+
+    .quiz-start-section {
+        width: 100%;
+        margin-top: -50px;
+
+        /* Remove negative margins */
+    }
+
+
+    /* input {
+        padding: 10px;
+        width: 60%;
+    } */
+
+    #name {
+        width: 55%;
+        margin-top: -10px;
+    }
+
+
+    #start-btn {
+        padding: 8px;
+        font-size: 14px;
+
+    }
+
+    /* instruction page */
+    .instruction-page {
+        padding: 0px 20px 60px;
+        /* Smaller padding for tight spaces */
+    }
+
+    .instruction-buttons {
+        left: 20px;
+    }
+
+    .instruction-page p {
+
+        font-size: 12px;
+    }
+
+    #start {
+        font-size: 10px;
+    }
+
+    #cancel {
+        font-size: 10px;
+
+    }
+
+
+
+    /* header section */
+    header {
+        font-size: 20px;
+    }
+
+    .welcomeCandidate p {
+        font-size: 16px;
+    }
+
+    .welcomeCandidate span {
+        font-size: 12px;
+    }
+
+    /* question block */
+    .que-block {
+        width: 100%;
+
+    }
+
+    /* result page */
+    .ans-block {
+        width: 100%;
+
+    }
+
+    .test-title {
+        font-size: 14px;
+
+    }
+
+    .question-timer {
+        font-size: 14px;
+    }
+
+
+}
