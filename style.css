@@ -11,9 +11,12 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #d5d8dc;
-    /* #d8f8e2 */
+
+    /* #dbdbdd, #dfd4e5, #e6ccf1*/
+    /*   
     background-image: url("./images/1.jfif");
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(to bottom, #dbdbdd 0%, #dfd4e5 50%, #e6ccf1 100%);
     height: 100vh;
 }
 
