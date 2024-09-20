@@ -33,7 +33,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 20px;
     box-sizing: border-box;
 }
