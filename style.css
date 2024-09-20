@@ -10,9 +10,6 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #d5d8dc;
-
-    /* #dbdbdd, #dfd4e5, #e6ccf1*/
     /*   
     background-image: url("./images/1.jfif");
     background-size: cover; */
@@ -33,7 +30,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 100dvh;
+    height: 100vh;
     padding: 20px;
     box-sizing: border-box;
 }
