@@ -131,7 +131,6 @@
     .start-quiz {
         width: 100%;
         margin-top: 50px;
-        gap: 0;
     }
 
     .quiz-time {
@@ -233,6 +232,11 @@
 
     }
 
+    .start-quiz {
+        gap: 0;
+    }
+
+
     .quiz-time {
         margin-bottom: 10px;
 
@@ -257,6 +261,7 @@
 
     #start-btn {
         padding: 10px;
+        margin-top: 20px;
     }
 
     /* instruction page  */
