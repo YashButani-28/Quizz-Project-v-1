@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const optionsElement = document.querySelector(".options");
     const nextButton = document.querySelector("#nextQue");
     const submitButton = document.querySelector("#submit-btn");
-    const timeElement = document.querySelector("#Q-timer");                // ---- start to uncomment this
+    const timeElement = document.querySelector("#Q-timer");                 // ---- start to uncomment this
 
     // Timer functionalities
     let timer;

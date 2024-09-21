@@ -136,12 +136,11 @@ input::placeholder {
 label {
     /* background-color: #85baae; */
     /* background-color: #7bb2b6; */
-    border-top: 1px solid #7bb266;
-    border-left: 1px solid #7bb266;
-    border-right: 1px solid #7bb266;
-    border-bottom: 2px solid #7bb266;
+
+    background-color: #ac8ab4;
     padding: 10px;
     width: 100%;
+    color: #e8e8e8;
 }
 
 #start-btn {
@@ -251,9 +250,10 @@ header {
     display: flex;
     justify-content: space-between;
     /* background-color: #2a3a56; */
-    background-color: #8a98b1;
+    /* background-color: #8a98b1; */
     /* color: black; */
-    color: #32465f;
+    /* color: #32465f; */
+    color: #7f2988;
     text-shadow: 0px 0px 1px white;
     border-radius: 5px;
     padding: 15px;
@@ -273,10 +273,13 @@ header {
 
 .quiz-desc {
     /* background-color: #1b4436; */
-    background-color: #39727f;
+    /* background-color: #39727f; */
+    /* background-color: #724c81; */
+    background-color: #876a93;
     padding: 20px;
     /* color: #dbe3c4; */
-    color: #afe5d3;
+    /* color: #afe5d3; */
+    color: #e6eae8;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -311,7 +314,8 @@ header {
 .question {
     /* color: white; */
     color: #a55a5a;
-    ;
+    color: #7f2988;
+
     font-size: 18px;
 
     margin: 0;
@@ -445,7 +449,8 @@ header {
     margin-bottom: 20px;
     padding: 10px;
     /* background-color: #f0f0f0; */
-    background-color: #65a6aa;
+    /* background-color: #65a6aa; */
+    background-color: #8ea4a5;
 
     border-radius: 5px;
 }
@@ -515,7 +520,8 @@ header {
 /* Container Styles for Skipped Questions */
 .skipped-questions-summary {
     /* background-color: #a39797; */
-    background-color: #a58585;
+    /* background-color: #a58585; */
+    background-color: #b98383;
 
 
     margin-top: 20px;
@@ -523,7 +529,8 @@ header {
 
 .skipped-question-summary {
     /* background-color: #dbdada; */
-    background-color: #b1cdb3;
+    /* background-color: #b1cdb3; */
+    background-color: #a7d7a3;
 
     padding: 10px;
     border-radius: 5px;
