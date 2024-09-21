@@ -1,35 +1,35 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-const startQuiz=document.querySelector("#start");
-const instructionPage=document.querySelector(".instruction-page");
-const welcomeCandidateElement=document.querySelector(".welcomeCandidate span");
+    const startQuiz = document.querySelector("#start");
+    const instructionPage = document.querySelector(".instruction-page");
+    const welcomeCandidateElement = document.querySelector(".welcomeCandidate span");
 
     const header = document.querySelector("header");
     const quizpage = document.querySelector("section");
     const answerBlock = document.querySelector(".ans-block");
 
     function Startquiz() {
-        const name=document.querySelector('input[name="name"]').value.trim();
-        
-        if(name !== ""){
-       instructionPage.style.display="none";
-        quizpage.style.display = "block";
-        header.style.display = "flex";
-        answerBlock.style.display="none";
-       
-        welcomeCandidateElement.innerHTML=`${name}!`;
+        const name = document.querySelector('input[name="name"]').value.trim();
 
-        getQuestionFromJson();
-    }
+        if (name !== "") {
+            instructionPage.style.display = "none";
+            quizpage.style.display = "block";
+            header.style.display = "flex";
+            answerBlock.style.display = "none";
+
+            welcomeCandidateElement.innerHTML = `${name}!`;
+
+            getQuestionFromJson();
+        }
     }
 
     startQuiz.addEventListener("click", Startquiz);
 
     // Question container classes
     const questionBlock = document.querySelector(".que-block");
-    const quizDesc=document.querySelector(".quiz-desc");
+    const quizDesc = document.querySelector(".quiz-desc");
     // const answerBlock = document.querySelector(".ans-block");
-    
+
     const questionElement = document.querySelector(".question");
     const optionsElement = document.querySelector(".options");
     const nextButton = document.querySelector("#nextQue");
@@ -70,8 +70,8 @@ const welcomeCandidateElement=document.querySelector(".welcomeCandidate span");
         }
     }
     async function displayQuestion() {
-     
-        
+
+
         if (currentQuestionIndex >= questions.length) {
             if (!submit) {
                 endQuiz();
@@ -166,34 +166,34 @@ const welcomeCandidateElement=document.querySelector(".welcomeCandidate span");
     }
 
     function goToNextQuestion() {
-        nextButton.disabled="true"
+        nextButton.disabled = "true"
         currentQuestionIndex++;
         displayQuestion();
     }
 
     function endQuiz() {
         clearInterval(timer);  // Stop the timer permanently when the quiz ends
-       
+
         displayScore();
     }
 
 
-    nextButton.addEventListener("click",()=>{
-        const selectedOption=document.querySelector('input[name="option"]:checked');
-        if(!selectedOption) {
+    nextButton.addEventListener("click", () => {
+        const selectedOption = document.querySelector('input[name="option"]:checked');
+        if (!selectedOption) {
             skipQueArr();
             return;
         }
-           
-        if(selectedOption.value===questions[currentQuestionIndex].correctAnswer){
+
+        if (selectedOption.value === questions[currentQuestionIndex].correctAnswer) {
             score++;
         }
         selectedQuestions.push({
-                        question: questions[currentQuestionIndex].question,
-                        selectedOption: selectedOption.value,
-                        correctAnswer: questions[currentQuestionIndex].correctAnswer
-                    });
-       
+            question: questions[currentQuestionIndex].question,
+            selectedOption: selectedOption.value,
+            correctAnswer: questions[currentQuestionIndex].correctAnswer
+        });
+
         goToNextQuestion();
     });
 
@@ -216,13 +216,13 @@ const welcomeCandidateElement=document.querySelector(".welcomeCandidate span");
     function displayScore() {
         questionBlock.style.display = "none";
         answerBlock.style.display = "block";
-        quizDesc.style.display="none";
+        quizDesc.style.display = "none";
 
-        const name=document.querySelector('input[name="name"]').value.trim();
+        const name = document.querySelector('input[name="name"]').value.trim();
 
         header.innerHTML = `${name} Your score: ${score}/${questions.length}`;
-        header.style.justifyContent="space-around";
-        header.style.padding="15px";
+        header.style.justifyContent = "space-around";
+        header.style.padding = "15px";
 
 
         // Display only the selected questions stored in selectedQuestions array
@@ -255,7 +255,7 @@ const welcomeCandidateElement=document.querySelector(".welcomeCandidate span");
 
                         questionContainer.appendChild(optionLabel);
 
-                        
+
                     });
                 }
             });
