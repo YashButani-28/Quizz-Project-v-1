@@ -4,11 +4,9 @@ const instructionPage=document.querySelector(".instruction-page");
 const homePage=document.querySelector(".home-page");
 
 const instructionPageButton=document.querySelector("#start-btn");
-// const startQuiz=document.querySelector("#start");
 const CancelQuiz=document.querySelector("#cancel");
 
-
-
+// click event 
 instructionPageButton.addEventListener("click",function(){
    
 const name=document.querySelector('input[name="name"]').value;
@@ -24,9 +22,6 @@ const welcomeCandidate=document.querySelector(".welcome-name");
 }
    });
 
-// startQuiz.addEventListener("click",function(){
-
-// })
 
 CancelQuiz.addEventListener("click",function(){
  instructionPage.style.display="none";
