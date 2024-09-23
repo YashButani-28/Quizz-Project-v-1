@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-
   const startQuiz = document.querySelector("#start");
   const instructionPage = document.querySelector(".instruction-page");
   const welcomeCandidateElement = document.querySelector(
@@ -36,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const optionsElement = document.querySelector(".options");
   const nextButton = document.querySelector("#nextQue");
   const submitButton = document.querySelector("#submit-btn");
-  const timeElement = document.querySelector("#Q-timer"); // ---- start to uncomment this
+  const timeElement = document.querySelector("#Q-timer");
 
   // Timer functionalities
   let timer;
